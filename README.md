@@ -37,7 +37,7 @@ REST API для керування об'єктами (items), розроблен
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate        # Linux/macOS: source .venv/bin/activate
+.venv\Scripts\activate        
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
